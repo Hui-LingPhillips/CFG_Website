@@ -1,16 +1,12 @@
 header {
-  text-align: center;
-  @font-face {
-    font-family: '5th Grade Cursive'
-    src: url('fonts/5thgradecursive-2-italic.ttf')
-  }
+  text-align: left;
   background-size: cover;
   background: linear-gradient( 0deg, rgb(2,52,132) 0%, rgb(34,193,195) 100%);
   color: white;
 }
 
 h1 {
-  text-align: center;
+  text-align: left;
   font-size:5em;
 <!-- Couldn't find a nice supported font family yet-->
 
