@@ -1,6 +1,9 @@
 header {
   text-align: center;
-  font-family: cursive;
+  @font-face {
+    font-family: '5th Grade Cursive'
+    src: url('fonts/5thgradecursive-2-italic.ttf')
+  }
   background-size: cover;
   background: linear-gradient( 0deg, rgb(2,52,132) 0%, rgb(34,193,195) 100%);
   color: white;
