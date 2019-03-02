@@ -47,6 +47,7 @@ body {
 }
 
 img {
-  margin: 0 auto;
-       border-radius:600px
+    height: auto;
+    width: 100%;
+    border-radius: 50%;
 }
