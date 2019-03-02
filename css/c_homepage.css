@@ -47,8 +47,5 @@ body {
 }
 
 img {
-  display: flex;
-  padding:20px;
-margin: 0 auto;
-  border-radius: 130px;
+  <! Image editing will go here !>
 }
