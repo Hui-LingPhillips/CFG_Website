@@ -47,7 +47,6 @@ p {
   color: #4c4c4c;
   vertical-align: top;
   font-size:1.5em;
-  float: left;
 }
 
 
@@ -57,5 +56,6 @@ body {
   font-family: inherit;
 }
 
-.yorkimage {
+.yorkimage, p {
+   display: block;
 }
