@@ -46,6 +46,7 @@ p {
 body {
   text-align: left;
   font-family: inconsolata;
+  float: left;
 }
 
 img {
