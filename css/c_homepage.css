@@ -40,9 +40,9 @@ h2 {
 
 p {
   color: #4c4c4c;
-  width: 20%;
-  margin: 5vh 5vw;
-  font-size:1.2em
+  width: 40%;
+  margin: 8vh 8vw;
+  font-size:1.5em
 }
 
 
@@ -53,5 +53,4 @@ body {
 }
 
 .yorkimage {
-  float: left;
 }
