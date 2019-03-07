@@ -39,7 +39,7 @@ h2 {
 }
 
 p {
-  color: black
+  color: #4c4c4c;
   width: 40%;
   margin: 8vh 8vw;
   font-size:1.5em
@@ -49,7 +49,7 @@ p {
 body {
   text-align: center;
   float: left;
-  font-family: inherit;
+  font-family: inconsolata;
 }
 
 .yorkimage {
