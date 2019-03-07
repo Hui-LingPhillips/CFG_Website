@@ -40,8 +40,7 @@ h2 {
 
 p {
   color: #4c4c4c;
-  display: inline-block;
-  align: right;
+  vertical-align: middle;
   width: 40%;
   margin: 0px;
   font-size:1.2em
