@@ -3,13 +3,13 @@ body {
   background-size: cover;
   background: linear-gradient( 0deg, rgb(2,52,132) 0%, rgb(34,193,195) 100%);
   color: white;
+  margin: 0px;
 }
 
 h1 {
   text-align: center;
   font-size:4em;
-<!-- Couldn't find a nice supported font family yet-->
-
+  font-family: inconsolata;
 }
 
 a {
