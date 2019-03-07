@@ -42,12 +42,6 @@ p {
   color: black
 }
 
-
-body {
-  text-align: center;
-  font-family: inconsolata;
-}
-
-img {
-  <! Image editing will go here !>
+.yorkimage {
+  float: left;
 }
