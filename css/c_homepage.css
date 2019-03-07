@@ -46,17 +46,15 @@ p {
   text-align: left;
   color: #4c4c4c;
   vertical-align: top;
+  horizontal-align: left;
   font-size:1.5em;
 }
-
 
 body {
   text-align: center;
   float: left;
   font-family: inherit;
 }
-.intro {
-  text-align: left;
-}
+
 .yorkimage {
 }
