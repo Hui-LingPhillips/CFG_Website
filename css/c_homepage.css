@@ -41,8 +41,9 @@ h2 {
 p {
   color: #4c4c4c;
   vertical-align: top;
-  height: 60px
-  margin: right;
+  height: 60px;
+  left: 20%;
+  margin: 0px;
   font-size:1.5em
 }
 
