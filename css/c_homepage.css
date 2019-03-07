@@ -39,13 +39,6 @@ h2 {
 }
 
 p {
-  left: 0;
-  line-height: 200px;
-  margin: auto;
-  margin-top: -100px;
-  position: absolute;
-  top: 50%;
-  width: 100%;
   color: #4c4c4c;
   vertical-align: top;
   height: 60px;
