@@ -43,11 +43,12 @@ h2 {
 }
 
 p {
+  text-align: left;
   color: #4c4c4c;
+  vertical-align: top;
+  font-size:1.5em;
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
-  vertical-align: top;
-  font-size:1.5em
 }
 
 
