@@ -1,5 +1,6 @@
 header {
   text-align: center;
+  font-family: inconsolata;
   background-size: cover;
   background: linear-gradient( 0deg, rgb(2,52,132) 0%, rgb(34,193,195) 100%);
   color: white;
@@ -7,6 +8,7 @@ header {
 
 h1 {
   text-align: center;
+  font-family: inconsolata;
   font-size:4em;
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
@@ -14,8 +16,9 @@ h1 {
 
 a {
     color: white;
+    font-family: inconsolata;
     margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;;
+    padding: 0px 0px 0px 0px;
 
   }
 
@@ -40,7 +43,8 @@ h2 {
 
 p {
   color: #4c4c4c;
-  margin: 20px 20px 0 0;  
+  mmargin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   vertical-align: top;
   font-size:1.5em
 }
@@ -49,7 +53,7 @@ p {
 body {
   text-align: center;
   float: left;
-  font-family: inconsolata;
+  font-family: inherit;
 }
 
 .yorkimage {
