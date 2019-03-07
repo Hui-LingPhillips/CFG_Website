@@ -41,7 +41,8 @@ h2 {
 p {
   color: #4c4c4c;
   display: inline-block;
-  width: 60%;
+  align: right;
+  width: 40%;
   margin: 0px;
   font-size:1.2em
 }
