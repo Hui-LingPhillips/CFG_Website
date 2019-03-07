@@ -49,7 +49,7 @@ p {
 body {
   text-align: center;
   float: left;
-  font-family: inconsolata;
+  font-family: inherit;
 }
 
 .yorkimage {
