@@ -1,5 +1,5 @@
 header {
-  text-align: center;
+  text-align: left;
   font-family: inconsolata;
   color: black;
 }
@@ -11,4 +11,5 @@ h1 {
 
 body {
   font-family: inherit;
+  float: left;
 }
