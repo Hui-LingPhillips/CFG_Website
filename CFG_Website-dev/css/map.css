@@ -12,6 +12,5 @@ p {
           width: 40%;
           margin: 10vh 10vw;
           font-size:2em;
-          vertical-align: top;
-          text-align: right;
+          float: right;
 }
