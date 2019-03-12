@@ -1,0 +1,14 @@
+body  {
+  font-family: inconsolata;
+
+  }
+h1 {
+          font-size: 5em;
+          text-align: left;
+}
+
+p {
+          width: 40%;
+          margin: 10vh 10vw;
+          font-size:2em;
+}
