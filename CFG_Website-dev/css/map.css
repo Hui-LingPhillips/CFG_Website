@@ -13,4 +13,5 @@ p {
           margin: 10vh 10vw;
           font-size:2em;
           float: right;
+          vertical-align: top;
 }
