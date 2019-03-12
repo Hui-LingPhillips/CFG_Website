@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header {
   text-align: center;
   font-family: inconsolata;
@@ -6,6 +7,8 @@ header {
   color: white;
 }
 
+=======
+>>>>>>> 3a1e849b10196353beca7639a089059061a6ce43
 h1 {
   text-align: center;
   font-family: inconsolata;
@@ -39,7 +42,18 @@ li:hover {
 
 h2 {
   color: black;
+<<<<<<< HEAD
   font-family: inconsolata
+=======
+  margin-top: 20px;
+  font-weight: 900;
+}
+
+.card-title {
+  color: black;
+  margin-top: 10px;
+  font-weight: 400;
+>>>>>>> 3a1e849b10196353beca7639a089059061a6ce43
 }
 
 p {
@@ -49,8 +63,95 @@ p {
   font-size:1.5em;
 }
 
+<<<<<<< HEAD
+=======
+#intro {
+  margin: 35px;
+  margin-left: 150px;
+  margin-right: 150px;
+
+}
+
+#cafecards, #teacards {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+>>>>>>> 3a1e849b10196353beca7639a089059061a6ce43
 body {
   text-align: center;
   float: left;
   font-family: inherit;
+}
+
+#footer {
+  background-color: rgb(52, 59, 71);
+}
+
+#subscribe-title{
+  text-align: left;
+  padding-top: 20px;
+  margin-left: 20px;
+  color: white;
+  font-weight: 500;
+}
+#subscribe {
+  display: inline;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+#address {
+  width: 250px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+#submitbutton {
+  width: 80px;
+  height: 40px;
+}
+
+.fa {
+  display: inline;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 40px;
+  line-height: center;
+  padding: 5px 0;
+  margin-bottom: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+#social {
+  background-color: rgb(52, 59, 71);
+}
+
+.fa-facebook {
+  background: rgb(59,89,152);
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  color: white;
 }
