@@ -12,8 +12,8 @@ p {
           width: 40%;
           margin: 10vh 10vw;
           font-size:1.5em;
-          float: right;
-          vertical-align: top;
+          text-align: center;
+
 }
 
 img {
