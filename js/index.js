@@ -17,9 +17,7 @@ $(document).ready(() => {
     interval: 2000
   })
 
-  $('.accordian').collapse({
-    toggle: false
-  })
+  $('.accordian').collapse('toggle')
 
   $().button('toggle')
 

@@ -1,22 +1,15 @@
 <!DOCTYPE html>
 <html>
-<<<<<<< HEAD
+
 
   <head>
-
       <title>York Cafe Trail</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="css/c_homepage.css">
-      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-=======
-<head>
-  <title>York Cafe Trail</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/c_homepage.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
->>>>>>> 3a1e849b10196353beca7639a089059061a6ce43
-  </head>
-
+</head>
+<body>
   <nav class="navbar sticky-top navbar-dark navbar-expand-lg bg-dark">
     <a class="navbar-brand">
       <img src="images/logo.jpg" width="30" height="30" alt="">
@@ -63,15 +56,12 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="js/index.js"></script>
   </nav>
-
-<body>
-
 <!-- Carousel -->
-  <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+  <div id="carouselIndicator" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
-      <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselIndicators" data-slide-to="2"></li>
+      <li data-target="carouselIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="carouselIndicators" data-slide-to="1"></li>
+      <li data-target="carouselIndicators" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -94,24 +84,6 @@
     </a>
   </div>
 
-<<<<<<< HEAD
-    <div>
-    <h2 id="intro_title">Independent Coffee Shops in York</h2>
-    </div>
-
-    <div id="image_map"> <map name="imagemapyork"> <area href="bistrogillygate" alt="Cafe Bistro"
-      target="_blank" shape=rect coords="2550,921,2290,672">
-     <img src="images/yorkmap4.png" alt="image map example" width=800px height=640px align=left usemap="#imagemapyork">
-     </div>
-
-  <p align="left" id="intro">
-      Hello there, and welcome to our site!
-      We hope to provide you with a comprehensive guide to the very best independent coffee shops here in the centre of York.
-      Just click on a coffee mug on the map to get started!
-    </p>
-
-  </body>
-=======
 <br>
 <!-- About Us -->
   <h2> What we do </h2>
@@ -125,8 +97,8 @@
       <img class="card-img-top" src="images/fossgate-social.jpg" alt="Fossgate Social">
         <div class="card-body">
           <h2 class="card-title">Fossgate Social</h2>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Learn more</a>
+          <p class="card-text">A quirky cafe serving award-winning coffee in a cosy setting.</p>
+          <a href="FossgateSocial.html" class="btn btn-primary">Learn more</a>
         </div>
       </div>
     </div>
@@ -136,8 +108,8 @@
        <img class="card-img-top" src="images/IMG_20180925_082854.jpg" alt="Brew and Brownie">
        <div class="card-body">
          <h2 class="card-title">Brew & Brownie</h2>
-         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-         <a href="#" class="btn btn-primary">Learn more</a>
+         <p class="card-text">A famous York hotspot for delicious sweet treats.</p>
+         <a href="B&B.html" class="btn btn-primary">Learn more</a>
        </div>
      </div>
    </div>
@@ -147,8 +119,8 @@
        <img class="card-img-top" src="images/IMG_7656.jpg" alt="Stanley and Ramona">
        <div class="card-body">
          <h2 class="card-title">Stanley & Ramona</h2>
-         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-         <a href="#" class="btn btn-primary">Learn more</a>
+         <p class="card-text">For coffee and cafe just outside the centre of York.</p>
+         <a href="S&R.html" class="btn btn-primary">Learn more</a>
        </div>
      </div>
    </div>
@@ -157,14 +129,14 @@
        <img class="card-img-top" src="images/bisons-.jpg" alt="Bison Coffee">
        <div class="card-body">
          <h2 class="card-title">Bison Coffee</h2>
-         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-         <a href="#" class="btn btn-primary">Learn more</a>
+         <p class="card-text">A small coffee shop close to York's student housing.</p>
+         <a href="Bison.html" class="btn btn-primary">Learn more</a>
        </div>
      </div>
    </div>
  </div>
  <br>
->>>>>>> 3a1e849b10196353beca7639a089059061a6ce43
+
 
 <!-- Teahouse Cards -->
     <div class="row" id='teacards'>
@@ -173,8 +145,8 @@
       <img class="card-img-top" src="images/ippuku.jpg" alt="Ippuku">
       <div class="card-body">
         <h2 class="card-title">Ippuku Tea House</h2>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Learn more</a>
+        <p class="card-text">A Japanese tea house with vegan & gluten-free options.</p>
+        <a href="ippuku.html" class="btn btn-primary">Learn more</a>
       </div>
     </div>
   </div>
@@ -183,8 +155,8 @@
         <img class="card-img-top" src="images/hebden.jpg" alt="Hebden">
         <div class="card-body">
         <h2 class="card-title">Hebden Tea</h2>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Learn more</a>
+        <p class="card-text">Offers teas from around the world right here in York.</p>
+        <a href="Hebden.html" class="btn btn-primary">Learn more</a>
         </div>
         </div>
             </div>
@@ -193,8 +165,8 @@
       <img class="card-img-top" src="images/garden.jpg" alt="Garden Room">
       <div class="card-body">
         <h2 class="card-title">Garden Room</h2>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Learn more</a>
+        <p class="card-text">Surrounded by gardens, this is perfect if you like your afternoon tea with a view.</p>
+        <a href="Garden.html" class="btn btn-primary">Learn more</a>
       </div>
         </div>
       </div>
@@ -203,14 +175,15 @@
       <img class="card-img-top" src="images/bettys.jpg" alt="Betty's">
       <div class="card-body">
         <h2 class="card-title">Betty's</h2>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Learn more</a>
+        <p class="card-text">A popular spot for afternoon tea that has been in the heart of York for 100 years.</p>
+        <a href="Bettys.html" class="btn btn-primary">Learn more</a>
       </div>
         </div>
       </div>
     </div>
+
     <!--Subscription-->
-<br>
+  <br>
   <div id="footer">
     <h3 id="subscribe-title" >Subscribe to our newsletter!</h3>
         <form id="subscribe" method="POST">
@@ -219,10 +192,11 @@
         </form>
         <!--Social Buttons-->
       <div id="social">
-        <a href="#" class="fa fa-facebook"></a>
+        <a href= "#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-twitter"></a>
         <a href="#" class="fa fa-instagram"></a>
       </div>
-    </body>
+    </div>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="js/index.js"></script>
+</body>
