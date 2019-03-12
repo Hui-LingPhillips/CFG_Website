@@ -13,7 +13,6 @@ $(document).ready(() => {
   })
 
 
-
   $('#carouselIndicators').carousel({
     interval: 2000
   })
