@@ -1,5 +1,5 @@
 body  {
-  font-family: inconsolata;
+  font-family: inherit;
 
   }
 h1 {
@@ -11,4 +11,6 @@ p {
           width: 40%;
           margin: 10vh 10vw;
           font-size:2em;
+          vertical-align: top;
+          text-align: right;
 }
