@@ -7,7 +7,7 @@ $(document).ready(() => {
   $('#CafeDropdown').on('click', () => {
     $('#cafe-dd-menu').show();
     })
-    
+
   $('#TeahouseDropdown').on('click', () => {
     $('#teahouse-dd-menu').show();
   })
